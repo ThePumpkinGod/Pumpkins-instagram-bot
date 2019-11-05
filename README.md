@@ -24,3 +24,16 @@ I had few rules placed for this project:
 4. data saved on the pc only no server no sus shit  
 5. easy UI for everyone  
 6. no auto update  
+
+# screenshots
+
+![s1](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2Fs%201.png?v=1572967095032)
+![s2](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2Fs%202.png?v=1572967094973)
+![s3](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2Fs%203.png?v=1572967095059)
+
+# Q&A
+
+q: is it truly free ?
+a: yes, yes it is read up my story
+
+have more questions ? ask me at discord `THE pumpkin GOD™#9441`
