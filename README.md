@@ -2,14 +2,17 @@
 ~ Pumpkins instagram bot free forever and open source ~  
 
 # what is this ?
+
 this is an instagram bot that do stuff for you  
 
 # how to use ?
+
 go to [here](https://github.com/sbh1311/Pumpkins-instagram-bot/releases)  
 and download the last version the name should be something like `pumpkin.s.instagram.bot.0.0.0.rar`  
 then unzip and run the file `pumpkins_instagram_bot.exe` inside  
 
 # stroy: why this a thing
+
 so on october 2019 a friend of mine challenged me to create a instagam bot, i said no  
 THE END  
 ...  
@@ -37,3 +40,9 @@ q: is it truly free ?
 a: yes, yes it is read up my story
 
 have more questions ? ask me at discord `THE pumpkin GOD™#9441`
+
+# TODO
+
+1. add more modules (aka things the bot can do)
+2. make the ui look better
+3. save username for the next run
