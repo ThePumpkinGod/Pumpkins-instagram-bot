@@ -1,0 +1,16 @@
+{
+  "name": "pumpkins_instagram_bot",
+  "version": "0.0.2",
+  "main": "init.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --overwrite"
+  },
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron": "7.0.1",
+    "electron-packager": "^14.1.0"
+  }
+}

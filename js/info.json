@@ -1,0 +1,19 @@
+{
+    "username":"learningbot",
+    "password":"zaq12wsx",
+    "tags":["fun","minecraft"],
+    "postsToLike":20, 
+    "followUser":false,
+    "moreInfo":true,
+    "downloadLink":"https://www.instagram.com/p/B4AwmEDqVbt/",
+
+    "comment":[
+        "username - place here your instegram username",
+        "password - place here your instegram password",
+        "tags - place here all the tags you want the bot to like in",
+        "postsToLike - place here the amount of likes per tag max is 20 for now more then that will bring into an error",
+        "followUser - type true / false if you want to follow the user the bot liked his pic",
+        "moreInfo - type true / false if you want more info about the post the bot liked",
+        "downloadLink - type an post url and the bot will save the post on your pc NOTE: move the file from the folder or next time it will overwithe it"
+    ]
+}
