@@ -30,9 +30,9 @@ I had few rules placed for this project:
 
 # screenshots
 
-![s1](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2Fs%201.png?v=1572967095032)
-![s2](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2Fs%202.png?v=1572967094973)
-![s3](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2Fs%203.png?v=1572967095059)
+![s1](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2F1.png?v=1573231374759)
+![s2](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2F2.png?v=1573231374830)
+![s3](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2F3.png?v=1573231376324)
 
 # Q&A
 
