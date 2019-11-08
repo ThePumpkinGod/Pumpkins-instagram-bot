@@ -5,7 +5,8 @@ function createWindow () {
   var win = new BrowserWindow({
     width: 800,
     height: 600,
-    //frame: false,
+    autoHideMenuBar: true,
+    resizable: false,
     icon: __dirname + "./img/face.ico",
     webPreferences: {
       nodeIntegration: true

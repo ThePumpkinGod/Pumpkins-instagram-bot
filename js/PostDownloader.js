@@ -1,5 +1,6 @@
 const puppeteer = require("puppeteer");
-const BASE_URL = "https://www.instagram.com/accounts/login/?source=auth_switcher"; // 
+const BASE_URL = "https://www.instagram.com/accounts/login/?source=auth_switcher";
+
 function start() {
 var url = document.getElementById("url").value;
 var username = document.getElementById("username").value;
@@ -17,15 +18,6 @@ var password = document.getElementById("password").value;
      document.getElementById("log").innerHTML = "i entered instagram";
 
      await instagramPage.waitFor(1000);
-
-/*
-      // clicking on the login text ////////////////////////////////////////////////////////////////////////////////////////////////
-     let loginButton = await instagramPage.$x('//a[contains(text(), "Log in")]');
-     await loginButton[0].click();
-
-     await instagramPage.waitForNavigation({ waitUntil: "networkidle2" });
-     await instagramPage.waitFor(3000);
-*/
      // writing username and password to the site////////////////////////////////////////////////////////////////////////////////
      await instagramPage.type('input[name="username"]', username, {
         delay: 55

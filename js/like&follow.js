@@ -13,8 +13,8 @@ function start() {
     var tags = document.getElementById("tags").value;
     var tags = tags.split(',');
 
-    document.getElementById("info").innerHTML = `<b>username:</b> ${username} <br> <b>password:</b> no peeking <br> <b>tags:</b> ${tags} <br> ${num}`;
-    document.getElementById("log").innerHTML = `the logs will be shown here soon`;
+    document.getElementById("info").innerHTML = `<b>username:</b> ${username} <br> <b>password:</b> no peeking <br> <b>tags:</b> ${tags} <br> <b>Likes per #:</b> ${num}`;
+    document.getElementById("log").innerHTML = `the logs will be shown here soon if nothing happans go back and try again! (sorry)`;
 
     (async () => {
         const browser = await puppeteer.launch({
@@ -28,14 +28,7 @@ function start() {
          document.getElementById("log").innerHTML = `entered instagram`;
     
          await instagramPage.waitFor(1000);
-    /*
-          // clicking on the login text ////////////////////////////////////////////////////////////////////////////////////////////////
-         let loginButton = await instagramPage.$x('//a[contains(text(), "Log in")]');
-         await loginButton[0].click();
-    
-         await instagramPage.waitForNavigation({ waitUntil: "networkidle2" });
-         await instagramPage.waitFor(3000);
-    */
+         
          // writing username and password to the site////////////////////////////////////////////////////////////////////////////////
          await instagramPage.type('input[name="username"]', username, {
             delay: 55

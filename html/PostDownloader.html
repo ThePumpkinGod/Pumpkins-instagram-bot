@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>pumpkin's instagram bot</title>
-    <script src="../js/PostDownloader.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <base href="./">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>InstaBot</title>
+  <script src="../js/PostDownloader.js"></script>
 </head>
-<body>
-    <center>
-    <input type="text" name="username" id="username" value="" placeholder="Username"/>
-    <br>
-    <br>
-    <input type="password" name="password" id="password" value="" placeholder="Password"/>
-    <br>
-    <br>
-    <input type="text" name="url" id="url" value="" placeholder="post url"/>
-    <br>
-    <br>
-    <button onclick="start()">start</button>
-    
-    <p id="log"></p>
-    </center>
 
-    <footer>
-        <p>Made By: THE pumpkin GOD™#9441</p>
-        <button onclick="window.location.href = '../index.html';">Back</button> 
-    </footer>
+<body>
+  <div class="landf-container">
+      <h1 class="landf-h1" style="margin-bottom:15px;">Post Downloader</h1>
+      <input type="text" name="username" id="username" value="" placeholder="Username"/>
+      <br>
+      <br>
+      <input type="password" name="password" id="password" value="" placeholder="Password"/>
+      <br>
+      <br>
+      <input type="text" name="url" id="url" value="" placeholder="URL"/>
+      <br>
+      <br>
+      <div class="some-buttons" style="margin-top: 20px;">
+        <button class="back-button" onclick="history.back()"><span>Back</span></button>
+        <button class="next-button" onclick="start()"><span>Start</span></button>
+      </div>
+
+      <p id="log"></p>
+  </div>
+
+    <div class="credits">
+      <p>Developer: ThePumpkinGod <br> designer: RedShark</p>
+    </div>
 </body>
 </html>
