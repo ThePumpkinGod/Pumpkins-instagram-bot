@@ -41,7 +41,8 @@ var password = document.getElementById("password").value;
       await instagramPage.goto(url, { waitUntil: "networkidle2" });
       await instagramPage.waitFor(3000);
  
-      await instagramPage.screenshot({path: 'post.png',  clip: {x: 485, y: 218, width: 600, height: 600}}).then(document.getElementById("log").innerHTML = "took a pic saved as post.png in the softwere files!"); 
+      const element = await instagramPage.$('div[class="_9AhH0"]');
+      await element.screenshot({ path: 'post.png' }).then(document.getElementById("log").innerHTML = "took a pic saved as post.png in the softwere files!"); 
 
         await browser.close();
   })();

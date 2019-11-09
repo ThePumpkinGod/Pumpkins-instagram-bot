@@ -1,0 +1,47 @@
+{
+ "followers":[
+    "asdasdasd",
+    "asdasdasd",
+    "asdasd",
+    "adasdasd",
+    "asdasdasd",
+    "asdasdas",
+    "dasdasda",
+    "sdasdasd",
+    "asdasdas",
+    "dasdasdasd"
+ ],
+ "following":[
+    "asdasda",
+    "sdasdasd",
+    "asdasd",
+    "asdadas",
+    "dasdasd",
+    "asdasdasd",
+    "asdasdas",
+    "dasdasd",
+    "asdasdad",
+    "asdasdas"
+ ]
+}
+
+var arr=[{
+   "name" : "Blofeld",
+   "weight" : 54 
+},{
+   "name" : "",
+   "weight" : 22 
+}];
+
+function contains(arr, key, val) {
+    for (var i = 0; i < arr.length; i++) {
+        if(arr[i][key] === val) return true;
+    }
+    return false;
+}
+
+console.log(contains(arr, "name", "Blofeld")); //true
+console.log(contains(arr, "weight", 22));//true
+
+console.log(contains(arr, "weight", "22"));//false (or true if you change === to ==)
+console.log(contains(arr, "name", "Me")); //false

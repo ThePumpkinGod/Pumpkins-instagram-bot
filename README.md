@@ -46,7 +46,3 @@ have more questions ? ask me at discord `THE pumpkin GOD™#9441`
 1. add more modules (aka things the bot can do)
 2. make the ui look better
 3. save username for the next run
-
-# Credits
-1. ThePumpkinGod (me) - Main dev
-2. RedShark Main Designer
