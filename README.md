@@ -1,53 +1,55 @@
-# Pumpkin`s instagram bot
-~ Pumpkins instagram bot free forever and open source ~  
+# Pumpkin's Instagram Bot
+~ Pumpkin's Instagram Bot is free forever & open source ~  
 
-# what is this ?
+# What is this?
 
-this is an instagram bot that do stuff for you  
+This is an Instagram bot that can do stuff for you  
 
-# how to use ?
+# How do I use it?
 
-go to [here](https://github.com/sbh1311/Pumpkins-instagram-bot/releases)  
-and download the last version the name should be something like `pumpkin.s.instagram.bot.0.0.0.rar`  
-then unzip and run the file `pumpkins_instagram_bot.exe` inside  
+Go [HERE](https://github.com/sbh1311/Pumpkins-instagram-bot/releases) to download the latest version.  
+The name should be something like `pumpkin.s.instagram.bot.x.y.z.rar`.  
+After the file was downloaded, unzip it and run the file: `pumpkins_instagram_bot.exe`.  
 
-# stroy: why this a thing
+# Story: Why is this a thing?
 
-so on october 2019 a friend of mine challenged me to create a instagam bot, i said no  
+The story began in October 2019, when a friend of mine challenged me to create an Instagram bot.  
+I answered no.  
 THE END  
 ...  
-ok jk I didnt want to work on it first but after i saw companies sell bots like this one for 15$/m  
-I desided to make my own bot and release it for free. 
 
-I had few rules placed for this project:  
+Ok just kidding, I didn't want to work on it firstly,  
+but after seeing companies selling bots like this one for 15$/m, I've decided to make my own bot and release it for free.
 
-1. everthing free forever ~kill those ones who pay for it~  
-2. open source  
-3. never have ads  
-4. data saved on the pc only no server no sus shit  
-5. easy UI for everyone  
-6. no auto update  
+I've set a few rules for this project:  
 
-# screenshots
+1. Everything is free forever.  
+2. The project will stay open source.  
+3. No Ads.  
+4. Data is saved on a server, your PC only.  
+5. Simple UI for everyone.  
+6. No automatic updates.  
 
-![s1](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2F1.png?v=1573231374759)
-![s2](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2F2.png?v=1573231374830)
-![s3](https://cdn.glitch.com/a776136a-ae70-44fb-a851-c1ae7433e63e%2F3.png?v=1573231376324)
+# Screenshots
+
+![s1](https://i.ibb.co/yd8TGGV/Modules.jpg)  
+![s2](https://i.ibb.co/yPF1jHT/AutoLike.jpg)  
+![s3](https://i.ibb.co/WWBX9x5/Post-Downloader.jpg)  
 
 # Q&A
 
-q: is it truly free ?
-a: yes, yes it is read up my story
+Q: Is it truly free?  
+A: Yes, it is, check out the Story section!  
 
-have more questions ? ask me at discord `THE pumpkin GOD™#9441`
+Have more questions? ask me on Discord! `THE pumpkin GOD™#9441`  
 
 # TODO
 
-1. add more modules (aka things the bot can do)
-2. make the ui look better
-3. save username for the next run
+1. Add more modules (AKA things that the bot can do)  
+2. ~Improve UI~  
+3. Save Username for the next run  
 
 # Credits
 
-1. ThePumpkinGod (me) - Main dev
-2. RedShark Main Designer
+1. Main Developer: ThePumpkinGod (Me)  
+2. Main Designer: RedShark  
