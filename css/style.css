@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+
 html {
-  background-image: url("../img/background-v1.svg");
+  background-image: url("../img/Diamond-Sunset.svg");
+  /* background by SVGBackgrounds.com */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -163,5 +166,13 @@ input:focus {
   text-shadow: 2px 2px rgb(0, 0, 0);
 }
 .landf-container form input {
+  margin-top: 25px;
+}
+.bot-data {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  text-shadow: #000000 0 0 10px, #000000 0 0 10px, #000000 0 0 10px;
+}
+.bot-data-marg {
   margin-top: 25px;
 }

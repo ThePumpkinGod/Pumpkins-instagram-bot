@@ -14,7 +14,7 @@ function start() {
     var tags = tags.split(',');
 
     document.getElementById("info").innerHTML = `<b>username:</b> ${username} <br> <b>password:</b> no peeking <br> <b>tags:</b> ${tags} <br> <b>Likes per #:</b> ${num}`;
-    document.getElementById("log").innerHTML = `the logs will be shown here soon if nothing happans go back and try again! (sorry)`;
+    document.getElementById("log").innerHTML = `The logs will be shown here soon. <br>If nothing happens, try again.`;
 
     (async () => {
         const browser = await puppeteer.launch({
@@ -25,7 +25,7 @@ function start() {
          const instagramPage = await browser.newPage();
          await instagramPage.setViewport({ width: 1920, height: 1080 });
          await instagramPage.goto(BASE_URL, { waitUntil: "networkidle2" });
-         document.getElementById("log").innerHTML = `entered instagram`;
+         document.getElementById("log").innerHTML = `Loaded Instagram`;
     
          await instagramPage.waitFor(1000);
          
@@ -33,11 +33,11 @@ function start() {
          await instagramPage.type('input[name="username"]', username, {
             delay: 55
           });
-          document.getElementById("log").innerHTML = "i entered the username" ;
+          document.getElementById("log").innerHTML = "Entered Username" ;
           await instagramPage.type('input[name="password"]', password, {
             delay: 55
           });
-          document.getElementById("log").innerHTML = "i entered the password" ;
+          document.getElementById("log").innerHTML = "Entered Password" ;
     
          // clcking on the login Button//////////////////////////////////////////////////////////////////////////////////////////////
           loginButton = await instagramPage.$x('//div[contains(text(), "Log In")]');
@@ -45,7 +45,7 @@ function start() {
       
           await instagramPage.waitForNavigation({ waitUntil: "networkidle2" });
           await instagramPage.waitFor('a > svg[aria-label="Profile"]');
-          document.getElementById("log").innerHTML = "Logged in !";
+          document.getElementById("log").innerHTML = "Logged In";
       
           await instagramPage.waitFor(1000);
     
@@ -73,27 +73,9 @@ function start() {
                    var name = await instagramPage.$('a[class="FPmhX notranslate nJAzx"]');
                    var name = await instagramPage.evaluate(name => name.innerText, name);
         
-                   document.getElementById("log").innerHTML =`I liked the picture ${instagramPage.url()} by ${name}`;
-        /*
-                   if(followUser === true){
-                    await instagramPage.waitFor(5000);
-                    await instagramPage.click('button[class="oW_lN sqdOP yWX7d    y3zKF     "]');
-                    document.getElementById("log").innerHTML =`i followed ${name}`;
-                   }
-        
-                   if(moreInfo === true){
-                   var bio = await instagramPage.$('div[class="C4VMK"] > span');
-                   var bio = await instagramPage.evaluate(bio => bio.innerText, bio);
-        
-                   var time = await instagramPage.$('time[class="FH9sR Nzb55"]');
-                   var time = await instagramPage.evaluate(time => time.innerText, time);
-        
-                   document.getElementById("log").innerHTML =`Bio: \n ${bio} \n time posted : ${time}`;
-                   document.getElementById("log").innerHTML ='\n--------------------------------------------------------------------------------------------\n';
-                   }
-        */
+                   document.getElementById("log").innerHTML =`I liked ${instagramPage.url()} by ${name}`;
                 }else{
-                  document.getElementById("log").innerHTML ="post aready liked!";
+                  document.getElementById("log").innerHTML ="Post was already liked!";
                 }
                 await instagramPage.waitFor(2000);
         
@@ -105,9 +87,9 @@ function start() {
                 await instagramPage.waitFor(2000);
               }
               await instagramPage.waitFor(15000);
-              document.getElementById("log").innerHTML ="waiting 15 sec until next hashtag";
+              document.getElementById("log").innerHTML ="Waiting 15 seconds until next hashtag";
             }
-            document.getElementById("log").innerHTML ="done! closing the bot click start to start again";
+            document.getElementById("log").innerHTML ="Done! click Start to start again";
             await browser.close();
       })();
     } catch (error) {

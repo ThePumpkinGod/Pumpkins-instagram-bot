@@ -7,27 +7,27 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <base href="./">
   <link rel="stylesheet" href="../css/style.css">
-  <title>InstaBot</title>
+  <title>Auto Like</title>
   <script src="../js/like&follow.js"></script>
 </head>
 
 <body>
   <div class="landf-container">
       <h1 class="landf-h1">Auto Like</h1>
-      <input type="text" name="username" id="username" value="" placeholder="Username" />
+      <input type="text" name="username" id="username" value="" placeholder="Username" autocomplete="off"/>
       <br>
-      <input type="password" name="password" id="password" value="" placeholder="Password" />
+      <input type="password" name="password" id="password" value="" placeholder="Password" autocomplete="off"/>
       <br>
-        <input type="tags" name="tags" id="tags" value="" placeholder='Format : "tag1,tag2..."' />
+        <input type="tags" name="tags" id="tags" value="" placeholder='Format : "tag1,tag2..."' autocomplete="off"/>
         <br>
-        <input type="likenum" name="likenum" id="likenum" value="" placeholder="Number of posts to like for each Hashtag" />
+        <input type="likenum" name="likenum" id="likenum" value="" placeholder="Number of posts to like for each Hashtag" autocomplete="off"/>
 
         <div class="btnandinfo">
           <button type="button" class="back-button" onclick="history.back()"><span>Back </span></button>
           <button type="button" class="next-button" onclick="start()"><span>Start </span></button>
 
-          <p id="info"></p>
-          <p id="log"></p>
+          <p class="bot-data" id="info"></p>
+          <p class="bot-data" id="log"></p>
         </div>
   </div>
 

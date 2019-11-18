@@ -7,20 +7,20 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <base href="./">
   <link rel="stylesheet" href="../css/style.css">
-  <title>InstaBot</title>
+  <title>Post Downloader</title>
   <script src="../js/PostDownloader.js"></script>
 </head>
 
 <body>
   <div class="landf-container">
       <h1 class="landf-h1" style="margin-bottom:15px;">Post Downloader</h1>
-      <input type="text" name="username" id="username" value="" placeholder="Username"/>
+      <input type="text" name="username" id="username" value="" placeholder="Username" autocomplete="off"/>
       <br>
       <br>
-      <input type="password" name="password" id="password" value="" placeholder="Password"/>
+      <input type="password" name="password" id="password" value="" placeholder="Password" autocomplete="off"/>
       <br>
       <br>
-      <input type="text" name="url" id="url" value="" placeholder="URL"/>
+      <input type="text" name="url" id="url" value="" placeholder="URL" autocomplete="off"/>
       <br>
       <br>
       <div class="some-buttons" style="margin-top: 20px;">
@@ -28,7 +28,7 @@
         <button class="next-button" onclick="start()"><span>Start</span></button>
       </div>
 
-      <p id="log"></p>
+      <p class="bot-data bot-data-marg" id="log"></p>
   </div>
 
     <div class="credits">
