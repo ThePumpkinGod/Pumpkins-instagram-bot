@@ -10,7 +10,7 @@
     "puppeteer": "^2.0.0"
   },
   "devDependencies": {
-    "electron": "7.2.4",
+    "electron": "9.4.0",
      "minimist": ">=0.2.1",
     "electron-packager": "^14.1.0"
   }
