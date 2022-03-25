@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "electron": "9.4.0",
-     "minimist": ">=0.2.1",
+     "minimist": ">=1.2.6",
     "electron-packager": "^14.1.0"
   }
 }
